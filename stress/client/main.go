@@ -45,12 +45,12 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	metricspb "google.golang.org/grpc/stress/grpc_testing"
+	"github.com/gkalele/grpc-go"
+	"github.com/gkalele/grpc-go/codes"
+	"github.com/gkalele/grpc-go/grpclog"
+	"github.com/gkalele/grpc-go/interop"
+	testpb "github.com/gkalele/grpc-go/interop/grpc_testing"
+	metricspb "github.com/gkalele/grpc-go/stress/grpc_testing"
 )
 
 var (

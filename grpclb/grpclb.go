@@ -42,10 +42,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	lbpb "google.golang.org/grpc/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/naming"
+	"github.com/gkalele/grpc-go"
+	lbpb "github.com/gkalele/grpc-go/grpclb/grpc_lb_v1"
+	"github.com/gkalele/grpc-go/grpclog"
+	"github.com/gkalele/grpc-go/naming"
 )
 
 // AddressType indicates the address type returned by name resolution.

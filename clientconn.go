@@ -43,9 +43,9 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/transport"
+	"github.com/gkalele/grpc-go/credentials"
+	"github.com/gkalele/grpc-go/grpclog"
+	"github.com/gkalele/grpc-go/transport"
 )
 
 var (
