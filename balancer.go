@@ -38,9 +38,9 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/naming"
+	"github.com/gkalele/grpc-go/credentials"
+	"github.com/gkalele/grpc-go/grpclog"
+	"github.com/gkalele/grpc-go/naming"
 )
 
 // Address represents a server the client connects to.

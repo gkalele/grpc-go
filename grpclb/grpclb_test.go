@@ -44,11 +44,11 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	lbpb "google.golang.org/grpc/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/naming"
+	"github.com/gkalele/grpc-go"
+	"github.com/gkalele/grpc-go/codes"
+	"github.com/gkalele/grpc-go/credentials"
+	lbpb "github.com/gkalele/grpc-go/grpclb/grpc_lb_v1"
+	"github.com/gkalele/grpc-go/naming"
 )
 
 var (

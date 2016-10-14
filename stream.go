@@ -43,9 +43,9 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/transport"
+	"github.com/gkalele/grpc-go/codes"
+	"github.com/gkalele/grpc-go/metadata"
+	"github.com/gkalele/grpc-go/transport"
 )
 
 // StreamHandler defines the handler called by gRPC server to complete the
