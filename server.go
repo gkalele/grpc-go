@@ -52,7 +52,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
+	"github.com/gkalele/grpc/internal"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/transport"
 )
